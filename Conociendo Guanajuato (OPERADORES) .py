@@ -82,4 +82,5 @@ if opcion==7: #Calcular el costo de vacaciones #Operadores de igualdad,suma y mu
     
     costo=dias*suma
     print("El costo de sus vacaciones es de aproximadamente: $",costo)
-
+else:
+  ("")

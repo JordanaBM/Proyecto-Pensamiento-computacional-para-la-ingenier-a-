@@ -21,7 +21,7 @@ print("8.Salir")
 
 print("\n")
 
-opcion=int(input("Digite la opción que desee: ")) #El usuario digita la opción que quiere con un número, sólo está desarrolada la 7
+opcion=int(input("Digite la opción que desee: ")) #El usuario digita la opción que quiere con un número, sólo está desarrollada la 7
 print("")
 
 if opcion==7: #Calcular el costo de vacaciones #Operadores de igualdad,suma y multiplicación

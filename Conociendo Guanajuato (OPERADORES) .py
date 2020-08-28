@@ -78,8 +78,8 @@ if opcion==7: #Calcular el costo de vacaciones #Operadores de igualdad,suma y mu
     suma=hotel+desayuno+turismo+comida
     print("El precio por día es:",suma)
     print("")
-    días=int(input("Digite los días que se quiere quedar: "))
+    dias=int(input("Digite los días que se quiere quedar: "))
     
-    costo=días*suma
+    costo=dias*suma
     print("El costo de sus vacaciones es de aproximadamente: $",costo)
 

@@ -25,8 +25,8 @@ def precio_vacaciones():
     suma=hotel+desayuno+turismo+comida+cena
     print("El precio por día es:",suma)
     print("")
-    días=int(input("Digite los días que se quiere quedar: "))
-    costo=días*suma
+    dias=int(input("Digite los días que se quiere quedar: "))
+    costo=dias*suma
     print("El costo de sus vacaciones es de aproximadamente: $",costo)
    
 

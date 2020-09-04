@@ -7,7 +7,7 @@ de los lugares turísticos de Guanajuato e información general
 de la cuidad
 """
 def menu_p():
-    print("         Menú Conociendo Guanajuato")
+    print("        Menú Conociendo Guanajuato")
     print("\n")
 
     print("1.Guanajuato “Patrimonio cultural de la humanidad”")#Declaro opciones de menú

@@ -22,10 +22,10 @@ def menu_p():
     
 def precio_vacaciones():
     suma=hotel+desayuno+turismo+comida+cena
-    print("El precio por día es:",suma,"\n")
+    print("\n El precio por día es:",suma,"\n")
     dias=int(input("Digite los días que se quiere quedar: "))
     costo=dias*suma
-    print("El costo de sus vacaciones es de aproximadamente: $",costo)
+    print("El costo de sus vacaciones es de aproximadamente: $",costo,"\n")
 
 def opcion_1():
     while True: #Uso de While
@@ -35,13 +35,12 @@ def opcion_1():
         print("1.2 Breve reseña histórica")
         print("0 Volver a menú principal")
         opcion2=float(input("Digite la opción que desee con el punto decimal, 0 para salir al menú principal: ")) #El usuario digita la opción que quiere con un número
-        print("")
         if opcion2==1.1: #Anidación 
-            print (Style.BRIGHT+"1.1 ¿Por qué se dice que Guanajuato es patrimonio cultural de la humanidad? \n")
+            print (Style.BRIGHT+"\n1.1 ¿Por qué se dice que Guanajuato es patrimonio cultural de la humanidad? \n")
             print(Style.RESET_ALL)
             patrimonio_gto()
         elif opcion2==1.2:
-            print(Style.BRIGHT+ "1.2 Breve reseña histórica \n")
+            print(Style.BRIGHT+ "\n1.2 Breve reseña histórica \n")
             print(Style.RESET_ALL)
             reseña_historica()
         elif opcion2==0:
@@ -57,13 +56,12 @@ def opcion_2():
         print("2.2 Teatro Juárez")
         print("0 Volver a menú principal")
         opcion2=float(input("Digite la opción que desee con el punto decimal, 0 para salir al menú principal: ")) #El usuario digita la opción que quiere con un número
-        print("")
         if opcion2==2.1: #Anidación 
-            print (Style.BRIGHT+"2.1 Alhóndiga de Granaditas \n")
+            print (Style.BRIGHT+"\n2.1 Alhóndiga de Granaditas \n")
             print(Style.RESET_ALL)
             alhondiga()
         elif opcion2==2.2:
-            print(Style.BRIGHT+"2.2 Teatro Juárez \n")
+            print(Style.BRIGHT+"\n2.2 Teatro Juárez \n")
             print(Style.RESET_ALL)
             teatro_juarez()
         elif opcion2==0:
@@ -73,19 +71,18 @@ def opcion_2():
         
 def opcion_3():
     while True:
-        print(Back.GREEN+Style.BRIGHT+"3.Festividades \n")
+        print(Back.GREEN+Style.BRIGHT+"\n3.Festividades \n")
         print(Style.RESET_ALL)
         print("3.1 Día de la cueva")
         print("3.2 Día de las flores")
         print("0 Volver a menú principal")
-        opcion2=float(input("Digite la opción que desee con el punto decimal, 0 para salir al menú principal: ")) #El usuario digita la opción que quiere con un número
-        print("")
+        opcion2=float(input("Digite la opción que desee con el punto decimal, 0 para salir al menú principal: ")) #El usuario digita la opción que quiere con un número 
         if opcion2==3.1: #Anidación 
-            print (Style.BRIGHT+"3.1 Día de la cueva")
+            print (Style.BRIGHT+"\n3.1 Día de la cueva")
             print(Style.RESET_ALL)
             dia_cueva()
         elif opcion2==3.2:
-            print(Style.BRIGHT+"3.2 Día de las flores")
+            print(Style.BRIGHT+"\n3.2 Día de las flores")
             print(Style.RESET_ALL)
             dia_flores()
         elif opcion2==0:
@@ -105,29 +102,28 @@ def opcion_4():
         print("4.6 “Restaurant de la Sierra”")
         print("0 Volver a menú principal")
         opcion2=float(input("Digite la opción que desee con el punto decimal, 0 para salir al menú principal: ")) #El usuario digita la opción que quiere con un número
-        print("")
         if opcion2==4.1: #Anidación 
-            print (Style.BRIGHT+"4.1 Enchiladas mineras")
+            print (Style.BRIGHT+"\n4.1 Enchiladas mineras")
             print(Style.RESET_ALL)
             enchiladas()
         elif opcion2==4.2:
-            print (Style.BRIGHT+"4.2 “Charamuscas” ")
+            print (Style.BRIGHT+"\n4.2 “Charamuscas” ")
             print(Style.RESET_ALL)
             charamuscas()
         elif opcion2==4.3:
-            print (Style.BRIGHT+"4.3 Restaurante “Los calandrios” ")
+            print (Style.BRIGHT+"\n4.3 Restaurante “Los calandrios” ")
             print(Style.RESET_ALL)
             calandrios()
         elif opcion2==4.4:
-            print (Style.BRIGHT+"4.4 Restaurante “Casa Valadez” ")
+            print (Style.BRIGHT+"\n4.4 Restaurante “Casa Valadez” ")
             print(Style.RESET_ALL)
             casa_valadez()
         elif opcion2==4.5:
-            print (Style.BRIGHT+"4.5 Restaurante “Trattoria” ")
+            print (Style.BRIGHT+"\n4.5 Restaurante “Trattoria” ")
             print(Style.RESET_ALL)
             casa_valadez()
         elif opcion2==4.6:
-            print(Style.BRIGHT+"4.6 “Restaurant de la Sierra”")
+            print(Style.BRIGHT+"\n4.6 “Restaurant de la Sierra”")
             print(Style.RESET_ALL)
             restaurant_sierra()
         elif opcion2==0:
@@ -145,27 +141,73 @@ def opcion_5():
         print("5.4 Hotel Boutique 1850 ")
         print("0 Volver a menú principal")
         opcion2=float(input("Digite la opción que desee con el punto decimal, 0 para salir al menú principal: ")) #El usuario digita la opción que quiere con un número decimal
-        print("")
         if opcion2==5.1: #Anidación 
-            print (Style.BRIGHT+"5.1 Castillo Santa Cecilia")
+            print (Style.BRIGHT+"\n5.1 Castillo Santa Cecilia")
             print(Style.RESET_ALL)
             castillo_santa_cecilia()
         elif opcion2==5.2:
-            print (Style.BRIGHT+"5.2 Hotel Misión Guanajuato")
+            print (Style.BRIGHT+"\n5.2 Hotel Misión Guanajuato")
             print(Style.RESET_ALL)
             hotel_mision_guanajuato()
         elif opcion2==5.3:
-            print (Style.BRIGHT+"5.3 Hotel La Abadia")
+            print (Style.BRIGHT+"\n5.3 Hotel La Abadia")
             print(Style.RESET_ALL)
             hotel_la_abadia()
         elif opcion2==5.4:
-            print(Style.BRIGHT+"5.4 Hotel Boutique 1850 ")
+            print(Style.BRIGHT+"\n5.4 Hotel Boutique 1850 ")
             print(Style.RESET_ALL)
             hotel_1850()
         elif opcion2==0:
             break
         else:
             print("Número de submenú incorrecto")
+            
+def opcion_6():
+    while True:
+        print(Back.GREEN+Style.BRIGHT+"6.Directorio de números telefónicos \n")
+        print(Style.RESET_ALL)
+        print(Style.BRIGHT+"a.Hospital General")
+        print(Style.BRIGHT+"b.Servicios Turísticos")
+        print(Style.BRIGHT+"c.Restaurante “Los calandrios” ")
+        print(Style.BRIGHT+"d.Restaurante “Casa Valadez”")
+        print(Style.BRIGHT+"e.Restaurante “Trattoria”")
+        print(Style.BRIGHT+"f.“Restaurant de la Sierra”")
+        print(Style.BRIGHT+"g.Hotel Castillo Santa Cecilia")
+        print(Style.BRIGHT+"h.Hotel Misión Guanajuato")
+        print(Style.BRIGHT+"i.Hotel La Abadia")
+        print(Style.BRIGHT+"j.Hotel Boutique 1850 \n")
+        print(Style.BRIGHT+"s.Volver al menú principal")
+        print(Style.RESET_ALL)
+        directorio=["Hospital General ---->+52 473 733 1576","Servicios turísticos  ----> +52 473 652 9696", #Realizo mi directorio telefónico en forma de lista
+                    "Restaurante “Los calandrios”---->+52 473 733 3140","Restaurante “Casa Valadez”---->+52 473 732 0311", 
+                    "Restaurante “Trattoria”---->+52 473 732 2158","“Restaurant de la Sierra”---->+52 473 102 5036",
+                    "Hotel Castillo Santa Cecilia---->+52 473 732 0485","Hotel Misión Guanajuato---->+52 473 732 3980",
+                    "Hotel La Abadia ----> +52 473 732 2140 ","Hotel Boutique 1850----> +52 473 732 2992"]
+        directorio_opcion=input("Digite la opción que desee: ")
+        if directorio_opcion== "a":
+            print("\n",directorio[0],"\n")
+        elif directorio_opcion== "b":
+            print("\n",directorio[1],"\n")
+        elif directorio_opcion== "c":
+            print("\n",directorio[2],"\n")
+        elif directorio_opcion== "d":
+            print("\n",directorio[3],"\n")
+        elif directorio_opcion== "e":
+            print("\n",directorio[4],"\n")
+        elif directorio_opcion== "f":
+            print("\n",directorio[5],"\n")
+        elif directorio_opcion== "g":
+            print("\n",directorio[6],"\n")
+        elif directorio_opcion== "h":
+            print("\n",directorio[7],"\n")
+        elif directorio_opcion== "i":
+            print("\n",directorio[8],"\n")
+        elif directorio_opcion== "j":
+            print("\n",directorio[9],"\n")
+        elif directorio_opcion == "s":
+             break
+        else:
+            print("Letra o equivocada")
 
 def patrimonio_gto():
     print("La Lista del Patrimonio Mundial de la UNESCO es un legado de monumentos y sitios de una gran riqueza natural y cultural, que cumplen la función de crear conciencia en los pueblos sobre su valor")
@@ -261,7 +303,6 @@ def hotel_1850():
     print("Puedes consultar su teléfono en la opción 6 de Directorio Telefónico \n")
     
 while True: #Uso del ciclo while, repetirá el menú hasta que la opción sea 8 (break)
-    print("")
     menu_p()#Llamo a la función de menú principal
     
     opcion=int(input("Digite la opción que desee: ")) #El usuario digita la opción que quiere con un número
@@ -283,11 +324,8 @@ while True: #Uso del ciclo while, repetirá el menú hasta que la opción sea 8 
         opcion_5()
    
     elif opcion==6:
-        print(Back.GREEN+Style.BRIGHT+"6.Directorio de números telefónicos \n")
-        print(Style.RESET_ALL)
-        print(" Hospital General ----> 4737331576")
-        print("Servicios turísticos  ----> 4736529696")
-
+        opcion_6()        
+            
     elif opcion==7: #Calcular el costo de vacaciones #Operadores de igualdad,suma y multiplicación
         print(Back.GREEN+Style.BRIGHT+"Plan de vacaciones en Guanajuato \n")
         print(Style.RESET_ALL)
@@ -302,40 +340,34 @@ while True: #Uso del ciclo while, repetirá el menú hasta que la opción sea 8 
         print("Hotel con alberca en el centro $1200, con 3 comidas incluidas $1600 \n")
         hotel=float(input(Fore.RED+"Digite el costo por noche que desea pagar: $"))
         print(Style.RESET_ALL)
-        print("")
-        print("         Desayuno \n")
+        print("\n        Desayuno \n")
         print( "Desayuno americano: Huevos y Hot Cakes + Jugo $75")
         print( "Desayuno mexicano: Chilaquiles con pollo + Jugo $75")
         print( "Desayuno buffet: $125 \n")
         desayuno=float(input(Fore.RED+"Digite el costo del desayuno: $"))
         print(Style.RESET_ALL)
-        print("")
-        print("       Turismo \n")
+        print("\n      Turismo \n")
         print("Un destino $200")
         print("Dos destinos $350")
         print("Tour completo (tres destinos) $450 \n")
         turismo=float(input(Fore.RED+"Digite el costo de su guía de turismo: $"))
         print(Style.RESET_ALL)
-        print("")
-        print("       Comida \n")
+        print("\n       Comida \n")
         print("Fonda $100")
         print("Platillo restaurante $130")
         print("Buffet $180 \n")
         comida=float(input(Fore.RED+"Digite el costo de la comida: $"))
         print(Style.RESET_ALL)
-        print("")
-        print("       Cena \n")
+        print("\n       Cena \n")
         print("Fonda $80")
         print("Platillo restaurante $100")
         print("Buffet $110 \n")
         cena=float(input(Fore.RED+"Digite el costo de la cena: $"))
         print(Style.RESET_ALL)
-        print("")
         precio_vacaciones()#Llamo a la función precio_vacaciones
 
     elif opcion==8:
         print("¡Gracias, hasta pronto!")
         break
-    
     else:
         print ("Número de menú incorrecto")

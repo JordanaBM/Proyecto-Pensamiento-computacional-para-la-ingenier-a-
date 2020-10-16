@@ -1,0 +1,59 @@
+============================Correción 1=====================================
+Sub-Competencia:
+    Usa herremientas de control de versiones (avance 1)
+
+Error original: En el segundo avance se creo un nuevo repositorio para
+el código
+
+Cambio realizado: Se creo un nuevo repositorio donde se iban
+sobreescribiendo los avances
+
+============================Correción 2=====================================
+Sub-Competencia:
+    Usa una biblioteca de python extra (a las vistas en el temario)
+    Explica como funciona la biblioteca extra (avance 1)
+
+Error original: No se ha tomado en cuenta para la evaluación de la
+subcompetencias la biblioteca colorama.
+
+Cambio realizado: Se agrego además la biblioteca json, que sirvió para
+eliminar las funciones que incluían puro texto (unas 400 líneas menos)
+Se incluye el archivo datos guanajuato.json
+
+Líneas de código donde se muestra las subcompetencias: 1 a 10
+============================Correción 3=====================================
+Sub-Competencia:
+  Aplica estructuras cíclicas para resolver un problema de manera eficiente
+  (avance 4)
+
+Error original: Realicé ciclos while sin condiciones
+    while True:
+        elif opcion == 8:
+            print("¡Gracias, hasta pronto!")
+            break
+
+Cambio realizado: Cambié los ciclos while y tienen ahora una condición
+    while opcion != 8:
+        elif opcion == 8:
+            print("¡Gracias, hasta pronto!")
+Líneas de código donde se muestra las subcompetencias: 225 a 269 y en cada
+función de opción
+============================Correción 4=====================================
+Sub-Competencia:
+  Aplica funciones de manera adecuada para segmentar el código y mantener
+  reusabilidad y modularidad (avance 2)
+
+Error original: Se realizaron funciones muy similares
+
+Cambio realizado: Se creo la función opcion_submenu, ésta sirve para
+evitar los prints de menus, acortando las líneas
+de código, optimizando todas las funciones
+    def opcion_submenu(titulo,opciones):
+        print(Back.GREEN + Style.BRIGHT + titulo)
+        print(Style.RESET_ALL)
+        i = 0
+        for linea in opciones:
+            print(opciones[i])
+            i = i + 1
+Líneas de código donde se muestra las subcompetencias: 35 a 41
+"""
